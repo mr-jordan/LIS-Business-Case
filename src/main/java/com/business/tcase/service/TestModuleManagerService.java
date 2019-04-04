@@ -14,6 +14,9 @@ public class TestModuleManagerService {
 	  
 	    private AbstractFactory testFactory = new TestFactory();
 	    
+	    private TestModuleManagerService() {
+			super();
+		}
 	    
 	    public static TestModuleManagerService getInstance()   { 
 	        if (instance == null) 
