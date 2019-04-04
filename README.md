@@ -1,0 +1,3 @@
+# TESTING
+
+Usage : mvn test
